@@ -1,6 +1,6 @@
 # Word Hunt Solver
 
-![Word Hunt Game Screenshot](images/word_hunt_screenshot.jpeg)
+<img src="images/word_hunt_screenshot.jpeg" alt="Word Hunt Game Screenshot" width="200"/>
 
 Access the link here: [Word Hunt Solver](https://hanlinm2.github.io/word_hunt_solver/) (currently it has only been tested to work on Chrome)
 
