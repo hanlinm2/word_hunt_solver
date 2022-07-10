@@ -83,8 +83,10 @@ def submit_onclick(*args,**kwargs):
     console.log("Running function submit_onclick()")
     global results
     results = []
-    characters = Element('characters').value
-    if len(characters) != 16:
+    characters = Element('characters').value.lower()
+    if not characters.isalpha():
+        pyscript.write('output', f"Please type in only letters")
+    elif len(characters) != 16:
         pyscript.write('output', f"You typed in {len(characters)} letters instead of 16")
     else:
         grid = make_grid(characters)
