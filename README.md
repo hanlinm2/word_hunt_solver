@@ -1,7 +1,12 @@
-# google-homepage
+# Word Hunt Solver
 
-This is a project I am doing to learn web development while following tutorials from [the Odin Project](https://www.theodinproject.com/courses/foundations/lessons/html-css).
+![Word Hunt Game Screenshot](images/word_hunt_screenshot.jpeg)
 
-I  learned how to use the Dev tools in browsers to inspect elements and use HTML and CSS to position and style different the elements.
+Access the link here: [Word Hunt Solver](https://hanlinm2.github.io/word_hunt_solver/) (currently it has only been tested to work on Chrome)
 
-The final project result is linked here: [Google Homepagee](http://hanlinm2.github.io/google-homepage)
+Word Hunt Solver helps player get the longest words in the popular iMessage Game Pigeon game Word Hunt.
+
+To find the longest words, the program uses a recurisive backtracking algorithm to find all possible letter paths and uses binary search to check if the letter path is a word in the list.
+
+Note:
+This is still a work in progress. This project uses an new and experiemntal front end tool called Pyscript, so things might break. 
