@@ -1,0 +1,45 @@
+body {
+    margin: 20px !important;
+    max-height: 100vh;
+    max-width: 100vw;
+    margin: 20px;
+    font-family: arial, sans-serif;
+}
+
+input[type=text], select {
+    
+    width: 100%;
+    padding: 12px 20px;
+    margin: 20px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin: auto;
+}
+  
+input[type=submit] {
+    display: block;
+    width: 70%;
+    background-color: #45a049;
+    color: white;
+    padding: 14px 20px;
+    margin: 20px auto;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+  
+input[type=submit]:hover {
+    background-color: #295e2c;
+}
+  
+p {
+    border-radius: 5px;
+    width: 100%;
+}
+
+.content {
+    max-width: 500px;
+    margin: auto;
+}
