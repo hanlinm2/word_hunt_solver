@@ -92,6 +92,7 @@ function find_longest_words(grid){
 }
 
 function submit_onclick(){
+    results = new Array();
     var characters = document.getElementById("characters").value;
     if (characters.length == 0) {
         document.getElementById("output").textContent = "You didn't type in anything!";
@@ -100,6 +101,7 @@ function submit_onclick(){
     } else if (characters.length != 16){
         document.getElementById("output").textContent = "You typed in " +  characters.length + " letters instead of 16";
     } else{
+        characters = characters.toLowerCase();
         var grid = make_grid(characters);
         find_longest_words(grid);
         results.sort(function(a, b){return b.length - a.length;});
